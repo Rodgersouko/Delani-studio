@@ -11,3 +11,7 @@
 .col-md-3{
     padding: 10px;
 }
+form{
+    background-image: url(./images/c_image.jpg);
+    background-size: cover;
+}
