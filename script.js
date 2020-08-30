@@ -16,35 +16,33 @@ $(function(){
         $(designh).animate({fontweight:'bolder',fontsize:'30px'})
     });
     $(".image2").on('click',function(){
-        $(".image2").slideUp('slow');
+        $("image2").slideUp('slow');
         $(development).show(500);
-        $(developmenth).animate({fontweight:'bolder',fontsize: '30px'})
+        $(developmenth).animate({fontweight:'bolder',fontsize:'30px'})
     });
     $(".image3").on('click',function(){
-        $(".image3").slideUp('slow');
-        $(productmng.show(500);
-        $(productmngh).animate({fontweight:'bolder',fontsize: '30px'})
+        $("image3").slideUp('slow');
+        $(productmng).show(500);
+        $(productmngh).animate({fontweight:'bolder',fontsize:'30px'})
     });
+
 // hide onclick
     $(".image1").on('click', function () {
         $(".image1").slideDown('slow');
         $(design).hide(500);
-        $(designh).animate({fontWeight:'normal',fontSize:'16px'})
+        $(designh).animate({fontWeight:'normal',fontSize:'20px'})
     });
     $(".image2").on('click', function () {
         $(".image2").slideDown('slow');
         $(development).hide(500);
-        $(developmenth).animate({fontWeight:'normal',fontSize:'16px'})
+        $(developmenth).animate({fontWeight:'normal',fontSize:'20px'})
     });
-    $(".image1").on('click', function () {
-        $(".image1").slideDown('slow');
-        $(productmng.hide(500);
-        $(productmngh).animate({fontWeight:'normal',fontSize:'16px'})
+    $(".image3").on('click', function () {
+        $(".image3").slideDown('slow');
+        $(productmng).hide(500);
+        $(productmngh).animate({fontWeight:'normal',fontSize:'20px'})
     });
-    $('.containerg').hover(function(){
-        $('.delani',this).slideToggle('slow');
-     }, function(){
-        $('.delani',this).slideToggle('slow');
-     });
+  
+
 
 });
