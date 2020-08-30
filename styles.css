@@ -15,18 +15,18 @@ form{
     background-image: url(./images/c_image.jpg);
     background-size: cover;
 }
-#design{
-    display: non;
+/* #design{
+    display: none;
 
 }
 #development{
 
-    display: non;
+    display: none;
 }
 #productmng{
-    display: non;
+    display: none;
 
-}
+} */
 img{
     cursor: pointer;
 }
