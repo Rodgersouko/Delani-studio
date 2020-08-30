@@ -30,3 +30,11 @@ form{
 img{
     cursor: pointer;
 }
+.contact{
+    color: black;
+    opacity: 50%;
+
+}
+form{
+    display: block;
+}
