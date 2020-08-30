@@ -16,14 +16,17 @@ form{
     background-size: cover;
 }
 #design{
-    display: none;
+    display: non;
 
 }
 #development{
 
-    display: none;
+    display: non;
 }
 #productmng{
-    display: none;
+    display: non;
 
+}
+img{
+    cursor: pointer;
 }
