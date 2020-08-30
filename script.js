@@ -42,12 +42,14 @@ $(function(){
         $(productmng).hide(10000);
         $(productmngh).animate({fontWeight:'normal',fontSize:'20px'})
     });    $('.container').hover(function(){
+        $('.delani').slideToggle('slow');
+     }, function(){
+        $('.delani').slideToggle('slow');
+     });
+     $('.port').hover(function(){
         $('.delani',this).slideToggle('slow');
      }, function(){
         $('.delani',this).slideToggle('slow');
      });
-
   
-
-
 });
