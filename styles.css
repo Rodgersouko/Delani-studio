@@ -15,3 +15,15 @@ form{
     background-image: url(./images/c_image.jpg);
     background-size: cover;
 }
+#design{
+    display: none;
+
+}
+#development{
+
+    display: none;
+}
+#productmng{
+    display: none;
+
+}
