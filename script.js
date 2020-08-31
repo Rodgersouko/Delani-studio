@@ -30,27 +30,27 @@ $(function(){
     $(".image1").on('click', function () {
         $(".image1").slideDown('slow');
         $(design).hide(10000);
-        $(designh).animate({fontWeight:'normal',fontSize:'20px'})
+        $(designh).animate()
     });
     $(".image2").on('click', function () {
         $(".image2").slideDown('slow');
         $(development).hide(10000);
-        $(developmenth).animate({fontWeight:'normal',fontSize:'20px'})
+        $(developmenth).animate()
     });
     $(".image3").on('click', function () {
         $(".image3").slideDown('slow');
         $(productmng).hide(10000);
-        $(productmngh).animate({fontWeight:'normal',fontSize:'20px'})
-    });    $('.container').hover(function(){
-        $('.delani').slideToggle('slow');
-     }, function(){
-        $('.delani').slideToggle('slow');
-     });
+        $(productmngh).animate()
+    });    
+
         $('.port').hover(function(){
-        $()
-        $('.delani',this).slideToggle('slow');
-     }, function(){
-        $('.delani',this).slideToggle('slow');
+        $('.port').slideToggle();
+        $('.delani',this).hide();
+     });
+
+    $('.delani').hover(function(){
+        $('.delani').slideToggle();
+        $('.port',this).slideToggle('slow');
      });
   
 });
