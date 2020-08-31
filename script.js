@@ -46,7 +46,8 @@ $(function(){
      }, function(){
         $('.delani').slideToggle('slow');
      });
-     $('.port').hover(function(){
+        $('.port').hover(function(){
+        $()
         $('.delani',this).slideToggle('slow');
      }, function(){
         $('.delani',this).slideToggle('slow');
