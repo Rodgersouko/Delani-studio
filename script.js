@@ -39,14 +39,14 @@ $(function(){
         $(productmng).hide(10000);
     });    
 
-        $('.port').hover(function(){
-        $('.port').hide();
-        $('.delani').slideToggle('1000');
+        $('.port').on('click',function(){
+        $('.port').hide('slow');
+        $(delani).show(1000);
      });
 
-    $('.delani').hover(function(){
-        $('.delani').hide();
-        $('.port').show('slow');
+    $('.delani').on('click',function(){
+        $(delani).hide('slow');
+        $('.port').show(1000);
      });
   
 });
