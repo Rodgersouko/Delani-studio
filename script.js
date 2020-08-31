@@ -5,10 +5,12 @@ $(function(){
     let designh= $("#designh");
     let developmenth= $("#developmenth");
     let productmngh= $("#productmngh");
+    let delani=$(".delani");
 
     $(design).hide();
     $(development).hide();
     $(productmng).hide();
+    $(delani).hide();
 // show onclick
     $(".image1").on('click',function(){
         $(".image1").slideUp('slow');
@@ -29,7 +31,7 @@ $(function(){
 // hide onclick
     $(".image1").on('click', function () {
         $(".image1").slideDown('slow');
-        $(design).hide(10000);
+        $(image1).hide(10000);
         $(designh).animate()
     });
     $(".image2").on('click', function () {
@@ -44,13 +46,13 @@ $(function(){
     });    
 
         $('.port').hover(function(){
-        $('.port').slideToggle();
-        $('.delani',this).hide();
+        // $('.port').hide();
+        $('.delani').slideToggle('1000');
      });
 
     $('.delani').hover(function(){
-        $('.delani').slideToggle();
-        $('.port',this).slideToggle('slow');
+        // $('.delani').hide();
+        $('.port').show('slow');
      });
   
 });

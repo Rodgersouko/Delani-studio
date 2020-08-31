@@ -1,4 +1,4 @@
-# ![My-portfolio](https://rodgersouko.github.io/Delani-studio/)
+# [My-portfolio](https://rodgersouko.github.io/Delani-studio/)
 # portfolio
 <table>
 <tr>

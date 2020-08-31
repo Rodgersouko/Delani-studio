@@ -15,25 +15,12 @@ form{
     background-image: url(./images/c_image.jpg);
     background-size: cover;
 }
-/* #design{
-    display: none;
-
-}
-#development{
-
-    display: none;
-}
-#productmng{
-    display: none;
-
-} */
 img{
     cursor: pointer;
 }
 .contact{
     color: black;
     opacity: 50%;
-
 }
 form{
     display: block;
@@ -41,7 +28,7 @@ form{
 .delani{
     color: white;
     background-color:black;
-    opacity:50%;
+    opacity:20%;
     width: 250px;
     height: 200px;
 }
