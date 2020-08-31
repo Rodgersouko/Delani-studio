@@ -24,6 +24,7 @@ img{
 }
 form{
     display: block;
+    text-align: center;
 }
 .delani{
     color: white;
@@ -40,4 +41,5 @@ form{
     padding: 10px;
     background-color: tomato;
     border-radius: 50%;
+    color: white;
 }
