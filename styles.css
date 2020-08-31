@@ -32,3 +32,12 @@ form{
     width: 250px;
     height: 200px;
 }
+#footer{
+    text-align: center;
+    padding: 25px;
+}
+.fa{
+    padding: 10px;
+    background-color: tomato;
+    border-radius: 50%;
+}
