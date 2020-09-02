@@ -29,9 +29,10 @@ form{
 .delani{
     color: white;
     background-color:black;
-    opacity:20%;
+    opacity:50%;
     width: 250px;
     height: 200px;
+    font-weight: bold;
 }
 #footer{
     text-align: center;
@@ -40,6 +41,7 @@ form{
 .fa{
     padding: 10px;
     background-color: tomato;
+    border-color: black 5px;
     border-radius: 50%;
     color: white;
 }

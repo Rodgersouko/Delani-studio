@@ -6,6 +6,10 @@ $(function(){
     let developmenth= $("#developmenth");
     let productmngh= $("#productmngh");
     let delani=$(".delani");
+    let name=$("#name");
+    let email=$("#email");
+    let message=$("#message");
+    let port =$(".port");
 
     $(design).hide();
     $(development).hide();
@@ -44,9 +48,13 @@ $(function(){
         $(delani).show(1000);
      });
 
-    $('.delani').on('click',function(){
-        $(delani).hide('slow');
-        $('.port').show(1000);
+    $('.delani').hover(function(){
+        $('.delani').hide(10000);
+        $(port).show(1000);
      });
+    //  $("button").click(function (omonge) {
+    //     var client = document.getElementById('name').value;
+    //     alert(' Dear ' + ' esteemed ' + client + ' we have received your message successful. ' + ' Feel free to reach out to us anytime');
+    //     omonge.preventDefault();
   
 });
