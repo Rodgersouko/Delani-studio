@@ -17,8 +17,8 @@ $(function(){
     $(delani).hide();
 // show onclick
     $(".image1").on('click',function(){
-        $(".image1").slideUp('slow');
-        $(design).show(500);
+        $(".image1").hide();
+        $(design).show();
     });
     $(".image2").on('click',function(){
         $(".image2").slideUp('slow');
